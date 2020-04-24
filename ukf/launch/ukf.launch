@@ -1,0 +1,10 @@
+<!-- -->
+<launch>
+
+	<node pkg="ukf" type="ukf_node" name="ukf_node" output="screen" clear_params="true">
+		<rosparam command="load" file="$(find ukf)/config/ukf.yaml" />
+	</node>
+
+
+</launch>
+
