@@ -1,5 +1,5 @@
 init_state_provided: false
 
 imu_topic: /imu/data
-gnss_topic: /ublox_gps/fix
+gnss_topic: /fix
 odom_topic: /odometry/car
